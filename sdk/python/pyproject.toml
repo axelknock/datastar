@@ -6,7 +6,7 @@ authors = [
     { name = "Felix Ingram", email = "f.ingram@gmail.com" },
     { name = "Lucian Knock", email = "git@lucianknock.com" }
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = []
 dynamic=["version"]
 license = {text = "MIT"}
@@ -82,3 +82,6 @@ commit_args = ""
 setup_hooks = []
 pre_commit_hooks = []
 post_commit_hooks = []
+
+[tool.poetry]
+version = "0.4.2"
